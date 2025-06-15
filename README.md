@@ -1,6 +1,6 @@
 # AI SDK Provider Claude Code Examples
 
-This repository contains examples demonstrating how to use the `ai-sdk-provider-claude-code` package which implements a custom community provider with the Vercel AI SDK.
+This repository contains examples demonstrating how to use the [`ai-sdk-provider-claude-code`](https://github.com/ben-vargas/ai-sdk-provider-claude-code) package which implements a custom community provider with the Vercel AI SDK.
 
 ## Prerequisites
 
