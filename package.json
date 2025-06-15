@@ -1,0 +1,29 @@
+{
+  "name": "research-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example:basic:js": "node example-basic.js",
+    "example:basic": "tsx example-basic.ts",
+    "example:system-prompts": "tsx example-system-prompts.ts",
+    "example:generate-object": "tsx example-generate-object.ts",
+    "example:generate-object:comprehensive": "tsx example-generate-object-comprehensive.ts",
+    "example:sports-json": "tsx example-sports-json.ts",
+    "examples:all": "npm run example:basic && npm run example:system-prompts && npm run example:generate-object && npm run example:generate-object:comprehensive && npm run example:sports-json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ai": "^4.3.16",
+    "ai-sdk-provider-claude-code": "github:ben-vargas/ai-sdk-provider-claude-code"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
