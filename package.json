@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "ai": "^4.3.16",
     "ai-sdk-provider-claude-code": "github:ben-vargas/ai-sdk-provider-claude-code"

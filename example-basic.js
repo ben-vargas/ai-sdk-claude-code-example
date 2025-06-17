@@ -1,8 +1,8 @@
-// Basic example of using ai-sdk-provider-claude-code with CommonJS
+// Basic example of using ai-sdk-provider-claude-code with ES modules
 // This is the simplest possible usage without any system prompts
 
-const { generateText } = require('ai');
-const { claudeCode } = require('ai-sdk-provider-claude-code');
+import { generateText } from 'ai';
+import { claudeCode } from 'ai-sdk-provider-claude-code';
 
 async function testClaudeCode() {
   try {
